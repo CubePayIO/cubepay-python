@@ -8,5 +8,5 @@ setup(name='cubepay',
       description='CubePay API library for Python, a third-party cryptocurrency payment gateway. https://cubepay.io',
       url='https://github.com/CubePayIO/cubepay-python',
       author='CubePayIO',
-        author_email='service@cubepay.io',
+      author_email='service@cubepay.io',
       packages=['cubepay'])
