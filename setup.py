@@ -9,4 +9,6 @@ setup(name='cubepay',
       url='https://github.com/CubePayIO/cubepay-python',
       author='CubePayIO',
       author_email='service@cubepay.io',
-      packages=['cubepay'])
+      packages=['cubepay'],
+      install_requires=['requests'],
+      )
