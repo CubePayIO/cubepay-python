@@ -59,7 +59,7 @@ response = cubepay.do_payment(source_coin_id, source_amount, item_name, merchant
 Initial payment with specific coin. The payment will expire after 6 hours.
      
 ```
-response = cubepay.do_payment_by_coin_id(coin_id, source_coin_id, source_amount, item_name, merchant_transaction_id, other, return_url, ipn_url, send_coin_id, send_amount, receive_address) print(result)
+response = cubepay.do_payment_by_coin_id(coin_id, source_coin_id, source_amount, item_name, merchant_transaction_id, other, return_url, ipn_url, send_coin_id, send_amount, receive_address)
 ```
 
 **Query payment information**
